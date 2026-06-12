@@ -1,36 +1,6 @@
 import streamlit as st
 from groq import Groq
 
-# 1. Initialize a login state variable
-if "logged_in" not in st.session_state:
-    st.session_state.logged_in = False
-
-# 2. Define the correct secret code
-CORRECT_PASSWORD = "foreverunemployed67"  # Change this to whatever password you want!
-
-# 3. Create the gate function
-def check_login():
-    if st.session_state.password_input == CORRECT_PASSWORD:
-        st.session_state.logged_in = True
-        st.success("vibe check passed fr ✅")
-    else:
-        st.error("wrong password gng, you're not on the list 💀")
-
-# 4. If not logged in, show ONLY the login screen
-if not st.session_state.logged_in:
-    st.set_page_config(page_title="Unemployed Gateway", page_icon="🔒")
-    st.title("🔒 SECURITY GATEWAY")
-    st.caption("enter the secret password to talk to mezoo <3 ")
-    
-    # Text input for password
-    st.text_input(
-        "Password", 
-        type="password", 
-        key="password_input", 
-        on_change=check_login,
-        placeholder="type password and press enter..."
-    )
-    st.stop()  # Crucial: This stops the rest of app.py from rendering until logged_in is True
 
 # --- CONFIG & SAFETY ---
 # Fetching key safely from secrets environment
