@@ -26,3 +26,7 @@ GROQ_API_KEY = "API KEY HERE"
 
 4. Run the Application
 streamlit run app.py
+
+<img width="1366" height="768" alt="Unemployed AI · Streamlit - Google Chrome 6_12_2026 7_52_46 PM" src="https://github.com/user-attachments/assets/c45fd615-094c-4378-8766-9913dd962486" />
+<img width="1366" height="768" alt="Unemployed AI · Streamlit - Google Chrome 6_12_2026 7_51_45 PM" src="https://github.com/user-attachments/assets/7c7732d0-2e38-4c36-83dc-51bd97f5df7a" />
+
