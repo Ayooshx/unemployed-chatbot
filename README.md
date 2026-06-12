@@ -5,7 +5,9 @@ incredibly laid-back, and highly relatable responses.
 The Tech Stack :
 
 Framework: Streamlit
+
 LLM : Groq Cloud API (llama-3.3-70b-versatile) — delivers lightning-fast, near-instant chat responses.
+
 Language: Python
 
 Getting Started
