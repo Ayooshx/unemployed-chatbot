@@ -11,7 +11,7 @@ except KeyError:
     st.stop()
 
 client = Groq(api_key=GROQ_API_KEY)
-MODEL_ID = "llama3-8b-8192" 
+MODEL_ID = "qwen/qwen3.6-27b" 
 
 st.set_page_config(page_title="Unemployed AI", page_icon="😭💸")
 
