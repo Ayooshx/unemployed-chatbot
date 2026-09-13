@@ -6,7 +6,7 @@ The Tech Stack :
 
 Framework: Streamlit
 
-LLM : Groq Cloud API (llama-3.3-70b-versatile) — delivers lightning-fast, near-instant chat responses.
+LLM : Groq Cloud API (llama-3.1-8b-instant) — delivers lightning-fast, near-instant chat responses.
 
 Language: Python
 
